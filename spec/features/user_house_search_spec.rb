@@ -5,7 +5,6 @@ RSpec.describe "As a user" do
     scenario "i see count of members and list of members" do
       visit "/"
 
-      #Griffindor house default
       click_on "Search For Members"
       expect(current_path).to eq("/search")
 

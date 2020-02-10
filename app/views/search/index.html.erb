@@ -1,8 +1,8 @@
-<h1><%= @house.name %> </h1>
-<p>members in house: <%= @house.member_count %></p>
+<h1><%= @house_name %> </h1>
+<p>members in house: <%= @member_count %> members</p>
   <br>
-  
+
 <h3>Members</h3>
-<% @house.members.each do |member| %>
-  <%= member.name %>
+<% @house_members.each do |member| %>
+  <%= member %>
 <% end %>

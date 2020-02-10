@@ -9,7 +9,7 @@ RSpec.describe "As a user" do
       click_on "Search For Members"
       expect(current_path).to eq("/search")
 
-      expect(page).to have_content("21 Members")
+      expect(page).to have_content("21 members")
       expect(page).to have_content("Harry")
       expect(page).to have_content("Ron")
       expect(page).to have_content("Hermione")
